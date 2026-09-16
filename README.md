@@ -1,7 +1,14 @@
 # OrderCore
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-ordercore.onrender.com-blue?style=for-the-badge&logo=render)](https://ordercore.onrender.com)
+[![Tests](https://img.shields.io/badge/Tests-18%20Passed-success?style=for-the-badge)](tests/test_engine.py)
+[![Throughput](https://img.shields.io/badge/Throughput-136k%20ops%2Fsec-purple?style=for-the-badge)](bench/benchmark.py)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
 A limit order book and matching engine, with pre-trade risk checks, a live
 WebSocket market data feed, and a trading terminal to place orders against it.
+
+🌐 **Live Demo:** [https://ordercore.onrender.com](https://ordercore.onrender.com)
 
 ![OrderCore Terminal](docs/screenshot.png)
 
